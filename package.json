@@ -1,0 +1,26 @@
+{
+  "name": "team-task-management-app",
+  "version": "1.0.0",
+  "description": "A full-stack team task management web application for projects, members, tasks, and dashboards.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/db/init.js",
+    "check": "node --check src/server.js && node --check src/db/init.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-mem": "^3.0.14"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
