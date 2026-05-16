@@ -5,7 +5,7 @@ A full-stack Team Task Management Web Application where users can create project
 This project is built for a real-world collaborative workflow, similar to a simplified Trello or Asana, with Admin and Member access levels.
 
 
-FEATURES
+# FEATURES
 
 
 ## User Authentication
