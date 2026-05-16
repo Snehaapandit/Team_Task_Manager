@@ -69,7 +69,7 @@ This project is built for a real-world collaborative workflow, similar to a simp
 - Responsive design with clean cards, task columns, and project previews
 
 
-TECH STACK
+# TECH STACK
 
 
 Frontend   : HTML, CSS, Vanilla JavaScript  
@@ -79,7 +79,7 @@ Auth       : JWT + bcryptjs
 Deployment : Railway  
 
 
-PREREQUISITES
+# PREREQUISITES
 
 
 - Node.js >= 20
@@ -91,7 +91,7 @@ PREREQUISITES
 For quick local development, the app also supports an in-memory database using `memory://local`.
 
 
-SETUP INSTRUCTIONS
+# SETUP INSTRUCTIONS
 
 
 ## 1. Clone The Repository
@@ -155,7 +155,7 @@ npm run db:init
 ```
 
 
-PROJECT STRUCTURE
+# PROJECT STRUCTURE
 
 
 ```text
@@ -203,7 +203,7 @@ Creates the database connection. Supports PostgreSQL in production and in-memory
 Railway deployment configuration.
 
 
-DATABASE DESIGN
+# DATABASE DESIGN
 
 
 ## users
@@ -254,7 +254,7 @@ Fields include:
 - updated_at
 
 
-API ENDPOINTS
+# API ENDPOINTS
 
 
 ## AUTH
@@ -297,7 +297,7 @@ GET     /api/projects/:projectId/dashboard           Get dashboard statistics
 ```
 
 
-ROLE FLOW
+# ROLE FLOW
 
 
 ## Admin Flow
@@ -318,7 +318,7 @@ ROLE FLOW
 5. Track personal task progress from Member Workspace.
 
 
-RAILWAY DEPLOYMENT
+# RAILWAY DEPLOYMENT
 
 
 ## 1. Push Code To GitHub
