@@ -4,9 +4,9 @@ A full-stack Team Task Management Web Application where users can create project
 
 This project is built for a real-world collaborative workflow, similar to a simplified Trello or Asana, with Admin and Member access levels.
 
-==================================================
+
 FEATURES
-==================================================
+
 
 ## User Authentication
 
@@ -68,9 +68,9 @@ FEATURES
 
 - Responsive design with clean cards, task columns, and project previews
 
-==================================================
+
 TECH STACK
-==================================================
+
 
 Frontend   : HTML, CSS, Vanilla JavaScript  
 Backend    : Node.js, Express.js  
@@ -78,9 +78,9 @@ Database   : PostgreSQL
 Auth       : JWT + bcryptjs  
 Deployment : Railway  
 
-==================================================
+
 PREREQUISITES
-==================================================
+
 
 - Node.js >= 20
 - npm
@@ -90,9 +90,9 @@ PREREQUISITES
 
 For quick local development, the app also supports an in-memory database using `memory://local`.
 
-==================================================
+
 SETUP INSTRUCTIONS
-==================================================
+
 
 ## 1. Clone The Repository
 
@@ -154,9 +154,9 @@ Then initialize the schema:
 npm run db:init
 ```
 
-==================================================
+
 PROJECT STRUCTURE
-==================================================
+
 
 ```text
 Team_Task_Manager/
@@ -202,9 +202,9 @@ Creates the database connection. Supports PostgreSQL in production and in-memory
 `railway.json`  
 Railway deployment configuration.
 
-==================================================
+
 DATABASE DESIGN
-==================================================
+
 
 ## users
 
@@ -253,9 +253,9 @@ Fields include:
 - created_at
 - updated_at
 
-==================================================
+
 API ENDPOINTS
-==================================================
+
 
 ## AUTH
 
@@ -296,9 +296,9 @@ DELETE  /api/projects/:projectId/tasks/:taskId       Delete task
 GET     /api/projects/:projectId/dashboard           Get dashboard statistics
 ```
 
-==================================================
+
 ROLE FLOW
-==================================================
+
 
 ## Admin Flow
 
@@ -317,9 +317,9 @@ ROLE FLOW
 4. Update status of assigned tasks.
 5. Track personal task progress from Member Workspace.
 
-==================================================
+
 RAILWAY DEPLOYMENT
-==================================================
+
 
 ## 1. Push Code To GitHub
 
